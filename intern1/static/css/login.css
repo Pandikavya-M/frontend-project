@@ -1,0 +1,169 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to right top, #81054c, #790548, #710644, #690640, #61063c, #5b0539, #550536, #4f0433, #490330, #43022d, #3d022a, #370127);
+    background-size: cover;
+    background-position: center;
+ }
+.shome .just{
+    font-family: Playfair Display;
+    font-size: 50px;
+    color: white;
+    margin: 10% 0% 0% 10%;
+ }
+ .shome h1{
+    font-family: Playfair Display;
+    font-size: 50px;
+    color: white;
+    margin: 40% 0% 2% 10%;
+ }
+ .shome h3{
+    font-family: Tangerine;
+    font-size: 50px;
+    color: white;
+    margin: 0% 0% 2% 10%;
+    text-decoration: none;
+ }
+ .shome p{
+    font-family: Poppins;
+    color: #c0c0c0;
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 0% 0% 0% 10%;
+ }
+ .shome span{
+    color: #fbfcfa;
+ }
+.home{
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    height: 80%;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 2%;
+    margin: 10% 2%;
+    background-color: rgba(255,255,255, 0.1);
+}
+.home h2{
+    font-family: mv boli;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 20px 190px 30px;
+}
+.home input{
+    width: 100%;
+    padding: 15px;
+    border-radius: 40px;
+    border-color: white;
+    color: white;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.home input::placeholder{
+    color: white;
+}
+.home .fp{
+    color: #c0c0c0;
+    text-decoration: none;
+    margin-left: 320px;
+}
+.home .fp:hover{
+    background: -webkit-linear-gradient(#d09192,#ff7582);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.home button{
+    width: 100%;
+    padding: 15px;
+    border-radius: 40px;
+    border-color: white;
+    margin-top: 20px;
+    background-color: white;
+}
+.home button:hover{
+    background-image: linear-gradient(to right, #ffe53b,#ff2525) ;
+    color: white;
+}
+.home .endline{
+    margin-left: 120px;
+    margin-top: 30px;
+}
+.home .endline p{
+    color:white;
+}
+.home .endline .reg{
+    color: #ffeb6c;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+.home .endline .reg:hover{
+    background: -webkit-linear-gradient(#d09192,#ff7582);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.home .error{
+    color: white;
+}
+
+/* ----------------------------------forget page--------------------------------- */
+
+.forg .just{
+    font-family: Playfair Display;
+    font-size: 50px;
+    color: white;
+    margin: 10% 0% 0% 10%;
+ }
+ .forg1{
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    height: 80%;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 2%;
+    margin: 10% 2%;
+    background-color: rgba(255,255,255, 0.1);
+}
+.forg1 h2{
+    font-family: mv boli;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 20px 93px 30px;
+}
+.forg1 input{
+    width: 100%;
+    padding: 15px;
+    border-radius: 40px;
+    border-color: white;
+    color: white;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.forg1 input::placeholder{
+    color: white;
+}
+.forg1 button{
+    width: 100%;
+    padding: 15px;
+    border-radius: 40px;
+    border-color: white;
+    margin-top: 20px;
+    background-color: white;
+}
+.forg1 button:hover{
+    background-image: linear-gradient(to right, #ffe53b,#ff2525) ;
+    color: white;
+}
+
+.forg1 .error{
+    color: white;
+}

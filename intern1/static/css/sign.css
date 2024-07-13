@@ -1,0 +1,138 @@
+/* body{
+    background-image: linear-gradient(to right top, #81054c, #790548, #710644, #690640, #61063c, #5b0539, #550536, #4f0433, #490330, #43022d, #3d022a, #370127);
+} */
+ body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to right top, #81054c, #790548, #710644, #690640, #61063c, #5b0539, #550536, #4f0433, #490330, #43022d, #3d022a, #370127);
+    background-size: cover;
+    background-position: center;
+ }
+ .signup_con .just{
+    font-family: Playfair Display;
+    font-size: 50px;
+    color: white;
+    margin: 10% 0% 2% 10%;
+ }
+ .signup_con h1{
+    font-family: Playfair Display;
+    font-size: 50px;
+    color: white;
+    margin: 45% 0% 2% 10%;
+ }
+ .signup_con h3{
+    font-family: Tangerine;
+    font-size: 50px;
+    color: white;
+    margin: 0% 0% 2% 10%;
+    text-decoration: none;
+ }
+ .signup_con p{
+    font-family: Poppins;
+    color: #c0c0c0;
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 0% 0% 0% 10%;
+ }
+ .log{
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    height: 80%;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    padding: 1%;
+    margin: 9% 2%;
+    background-color: rgba(255,255,255, 0.1);
+}
+.log h2{
+    font-family: mv boli;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 20px 160px 20px;
+}
+.log .name input{
+    width: 49%;
+    padding: 15px;
+    border-radius: 40px;
+    border-color: white;
+    color: white;
+    margin-bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.log input{
+    width: 100%;
+    padding: 15px;
+    border-radius: 40px;
+    border-color: white;
+    color: white;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.log input::placeholder{
+    color: white;
+}
+.log .policy input{
+    width: 5px;
+}
+.log .policy label{
+    color: white;
+    margin-top: 8px;
+}
+.log .policy label a{
+    color: #ffeb6c;
+    text-decoration: none;
+    font-weight: bold;
+}
+.log .policy label a:hover{
+    background: -webkit-linear-gradient(#ff5400,#ffe53b);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.log button{
+    width: 100%;
+    padding: 15px;
+    border-radius: 40px;
+    border-color: white;
+    margin-top: 15px;
+    background-color: white;
+}
+.log button:hover{
+    background-image: linear-gradient(to right, #ffe53b,#ff2525) ;
+    color: white;
+}
+.log .error{
+    color: white;
+    margin-top: 0px;
+}
+.log .endline{
+    margin-left: 95px;
+    margin-top: 30px;
+}
+.log .endline p{
+    color:white;
+}
+.endline .reg{
+    color: #ffeb6c;
+    /* background: -webkit-linear-gradient(#ff5400,#ffe53b);
+    background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+.endline .reg:hover{
+    background: -webkit-linear-gradient(#ff5400,#ffe53b);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* color: #c0c0c0; */
+}
+
+
+
+
+/* background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(212, 4, 4)); */
